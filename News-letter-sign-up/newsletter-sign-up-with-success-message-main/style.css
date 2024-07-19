@@ -1,0 +1,208 @@
+#remove{
+    display: none;
+}
+.thank-you{
+    display: none;
+}
+body{
+    background-color: hsl(234, 29%, 20%);
+}
+.container{
+    max-width:900px;
+    background-color: hsl(0, 0%, 100%);
+    display: block;
+    margin:0px auto;
+    height:max-content;
+    border-radius:20px;
+    
+}
+.side-image{
+    width:50%;
+    display: block;
+    float: right;
+    padding:20px;
+}
+h1{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 75px;
+    padding-left: 45px;
+}
+.main-line{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 45px;
+}
+.success-1,.success-2,.success-3{
+    padding-left: 40px;
+}
+.pt-1{
+    font-family: 'Roboto';
+    font-weight: 400;
+    display: inline-block;
+    font-size: 17px;
+    transform: translateY(-5px);
+}
+.pt-2{
+    font-family: 'Roboto';
+    font-weight: 400;
+    display: inline-block;
+    font-size: 17px;
+    transform: translateY(-5px);
+}
+.pt-3{
+    font-family: 'Roboto';
+    font-weight: 400;
+    display: inline-block;
+    font-size: 17px;
+    transform: translateY(-5px);
+}
+.mail{
+    padding-left:45px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 700;
+}
+.email-input{
+    margin-left: 45px;
+    padding:10px;
+    border:2px solid hsl(234, 29%, 20%);
+    font-size:15px;
+    max-width:320px;
+    border-radius: 10px;
+}
+.email-input,.email-input input:hover{
+    cursor:pointer;
+}
+.email-input input{
+    border:none;
+    outline:none;
+    font-size: 18px;
+}
+button{
+    font-family: 'Roboto';
+    font-weight: 400;
+    background-color:  hsl(234, 29%, 20%);
+    color:white;
+    font-size: 18px;
+    padding-top:12px;
+    padding-bottom: 12px;
+    padding-right: 44px;
+    padding-left: 43px; 
+    margin-top: 30px;
+    margin-left: 45px;
+    border-radius: 10px;
+    margin-bottom:124px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: hsl(4, 100%, 67%);
+    border:2px solid hsl(4, 100%, 67%);
+    box-shadow: 3px 3px 5px hsl(4, 100%, 67%); 
+}
+#done{
+    display: block;
+    margin:0px auto;
+    background-color: white;
+    max-width:300px;
+    max-height:450px;
+    transform: translateY(100px);
+    border-radius: 20px;
+}
+.thanks{
+color:hsl(234, 29%, 20%);
+transform: translateY(-70px);
+margin-right:12px;
+}
+#done p{
+    margin-left:30px;
+    margin-right: 30px;
+    transform: translateY(-70px);
+}
+#done img{
+    margin-left: 30px;
+    margin-top:30px;
+}
+#done button{
+    transform: translateY(-90px);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.error{
+    margin-left: 45px;
+    color:red;
+    padding-top: 10px;
+}
+@media(width<376px){
+    .side-image{
+        width:100%;
+        margin:0px;
+        padding: 0px;
+    }
+    .email-input{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+   button{
+    margin-left:10px;
+    margin-right: 10px;
+   }
+   .mail{
+    padding-left:10px;
+   }
+   .success-1,.success-2,.success-3{
+    padding-left: 10px;
+    width:20px;
+}
+.success-2{
+    transform: translateY(-22px);
+}
+.success-3{
+    transform: translateY(-50px);
+}
+h1{
+    transform: translateY(20px);
+}
+.main-line{
+    padding-left: 10px;
+}
+.pt-1{
+    padding-left: 35px;
+    margin-right: 10px;
+    transform: translateY(-40px);
+}
+.pt-2{
+    padding-left: 30px;
+    margin-left:10px;
+    transform: translateY(-60px);
+}
+.pt-3{
+    transform: translateY(-50px);
+}
+.mail-part{
+    transform: translateY(-60px);
+}
+.button{
+    margin-bottom:20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.error{
+    margin-left: 20px;
+}
+#done{
+    max-width: 375px;
+    max-height: 720px;
+    margin:10px;
+    transform: translateY(0px);
+}
+#done img{
+    margin-top: 120px;
+}
+#done button{
+    margin-top:160px;
+    width:80%;
+}
+}
